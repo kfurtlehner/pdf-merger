@@ -18,7 +18,7 @@ or
 ### Example Usage
 ```php
 
-$pdf = new \Clegginabox\PDFMerger\PDFMerger;
+$pdf = new \Kfurtlehner\PDFMerger\PDFMerger;
 
 $pdf->addPDF('samplepdfs/one.pdf', '1, 3, 4');
 $pdf->addPDF('samplepdfs/two.pdf', '1-2');
