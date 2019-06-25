@@ -65,7 +65,7 @@ class PDFMerger
             throw new Exception("No PDFs to merge.");
         }
 
-        $fpdi = new FPDI;
+        $fpdi = new Fpdi();
 
         // merger operations
         foreach ($this->_files as $file) {
